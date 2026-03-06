@@ -1,0 +1,19 @@
+﻿{
+  "providers": {
+    "openrouter": {
+      "apiKey": "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"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "minimax/minimax-m2"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "token": "8658831614:AAHaCfn1QgexMK25VBKo7A6BvCDEExtL1eY",
+      "allowFrom": ["@antepnet"]
+    }
+  }
+}

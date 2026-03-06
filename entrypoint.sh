@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 mkdir -p /root/.nanobot
 cat > /root/.nanobot/config.json << EOF
 {

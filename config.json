@@ -14,6 +14,7 @@
       "enabled": true,
       "token": "8658831614:AAHaCfn1QgexMK25VBKo7A6BvCDEExtL1eY",
       "allowFrom": ["@antepnet"]
+      "allowFrom": ["530783483"] 
     }
   }
 }

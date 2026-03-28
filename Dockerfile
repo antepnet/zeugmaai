@@ -3,14 +3,13 @@ mkdir -p /root/.nanobot/workspace\n\
 cat > /root/.nanobot/config.json << EOF\n\
 {\n\
   "providers": {\n\
-    "openai": {\n\
-      "apiKey": "${ZAI_API_KEY}",\n\
-      "apiBase": "https://api.z.ai/api/paas/v4"\n\
+    "openrouter": {\n\
+      "apiKey": "${OPENROUTER_API_KEY}"\n\
     }\n\
   },\n\
   "agents": {\n\
     "defaults": {\n\
-      "model": "openai/glm-4.7-flash"\n\
+      "model": "google/gemini-2.0-flash-exp:free"\n\
     }\n\
   },\n\
   "channels": {\n\

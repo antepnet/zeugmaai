@@ -10,7 +10,7 @@ cat > /root/.nanobot/config.json << EOF
   },
   "agents": {
     "defaults": {
-      "model": "openrouter/auto"
+      "model": "nvidia/nemotron-3-super-120b-a12b:free"
     }
   },
   "channels": {

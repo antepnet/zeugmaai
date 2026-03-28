@@ -13,7 +13,7 @@ cat > /root/.nanobot/config.json << EOF\n\
   },\n\
   "agents": {\n\
     "defaults": {\n\
-      "model": "google/gemini-2.0-flash-exp:free"\n\
+      "model": "openrouter/auto"\n\
     }\n\
   },\n\
   "channels": {\n\
